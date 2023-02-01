@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search renders Search component 1`] = `
+<DocumentFragment>
+  <input
+    class="search-input"
+    data-testid="search-input"
+    type="text"
+  />
+</DocumentFragment>
+`;

@@ -4,7 +4,7 @@ import "../styles/search.css";
 function Search() {
   return (
     <>
-      <input className="search-input" type="text" />
+      <input className="search-input" type="text" data-testid="search-input" />
     </>
   );
 }
