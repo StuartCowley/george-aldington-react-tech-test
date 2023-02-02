@@ -25,6 +25,9 @@ exports[`App renders App correctly 1`] = `
         ?
       </button>
     </form>
+    <p>
+      No results
+    </p>
   </div>
 </DocumentFragment>
 `;
