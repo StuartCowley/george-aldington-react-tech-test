@@ -1,6 +1,25 @@
+.search-form {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
 .search-input {
-  inline-size: 300px;
-  margin:auto;
+  width: 300px;
+  height: 35px;
+  font-size: 30px;
   border: 5px solid rgb(179, 37, 34);
-  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.search-button {
+color:whitesmoke;
+  background-color: rgb(179, 37, 34);
+  border: 5px solid rgb(179, 37, 34);
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  font-weight: 900;
+  font-size: 30px;
+  cursor: pointer;
 }
