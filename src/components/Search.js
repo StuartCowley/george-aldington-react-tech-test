@@ -20,7 +20,7 @@ function Search({ setSearchResults }) {
           type="text"
           data-testid="search-input"
         />
-        <button className="search-button" type="submit">
+        <button className="search-button" type="submit" data-testid="search-button">
           ?
         </button>
       </form>

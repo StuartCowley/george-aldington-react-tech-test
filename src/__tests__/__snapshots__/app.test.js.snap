@@ -20,6 +20,7 @@ exports[`App renders App correctly 1`] = `
       />
       <button
         class="search-button"
+        data-testid="search-button"
         type="submit"
       >
         ?
