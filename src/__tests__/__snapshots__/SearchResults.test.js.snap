@@ -6,12 +6,12 @@ exports[`SearchResults renders results correctly 1`] = `
     class="search-results"
   >
     <img
-      alt="space_image"
+      alt="placeholder"
       class="search-results__image"
       src="test1"
     />
     <img
-      alt="space_image"
+      alt="placeholder"
       class="search-results__image"
       src="test2"
     />
