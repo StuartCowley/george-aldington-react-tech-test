@@ -15,7 +15,7 @@ function SearchResults({ results }) {
           <img
             className="search-results__image"
             src={image}
-            alt="space_image"
+            alt="placeholder"
             key={index}
           />
         );
