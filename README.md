@@ -4,7 +4,7 @@ This is a search engine built using react.js. It is part of the front end module
 
 This is what it looks like - enter a search term into the search bar and the app will respond with a collection of relavent images.
 
-<img alt="A collection of images of andromeda below a search bar with andromeda in the search bar and the word NASA." src="./images/app-screenshot.png">
+<img alt="A collection of images of andromeda below a search bar with andromeda in the search bar and the word NASA." src="./images/app-screenshot.jpeg">
 
 ## API 
 This app uses the [NASA Images API ](https://images.nasa.gov/docs/images.nasa.gov_api_docs.pdf) from [NASA](https://api.nasa.gov/).
