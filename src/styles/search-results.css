@@ -12,8 +12,7 @@
 }
 
 .search-results>img {
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 170px;
   padding: 5px;
   border-radius: 10px;
   object-fit: cover;
