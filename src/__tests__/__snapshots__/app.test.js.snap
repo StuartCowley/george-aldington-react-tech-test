@@ -27,7 +27,7 @@ exports[`App renders App correctly 1`] = `
       </button>
     </form>
     <p>
-      No results
+      Sorry, we couldn't find anything.
     </p>
   </div>
 </DocumentFragment>
