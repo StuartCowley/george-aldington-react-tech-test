@@ -1,14 +1,15 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import getImages from "../requests/getImages";
+import { TfiSearch } from "react-icons/tfi";
 import "../styles/search.css";
 
-function Search({ setSearchResults }) {
+function Search({ setSearchResults, setLoading }) {
   const [searchValue, setSearchValue] = useState("");
   const handleSubmit = async (event) => {
     event.preventDefault();
-    console.log(searchValue);
     setSearchResults(await getImages(searchValue));
+    await setLoading(false);
   };
 
   return (
@@ -21,7 +22,7 @@ function Search({ setSearchResults }) {
           data-testid="search-input"
         />
         <button className="search-button" type="submit" data-testid="search-button">
-          ?
+          <TfiSearch />
         </button>
       </form>
     </>
@@ -30,6 +31,7 @@ function Search({ setSearchResults }) {
 
 Search.propTypes = {
   setSearchResults: PropTypes.func.isRequired,
+  setLoading: PropTypes.func.isRequired,
 };
 
 export default Search;
