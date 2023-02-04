@@ -8,7 +8,7 @@ This is what it looks like - enter a search term into the search bar and the app
 <img alt="A collection of images of andromeda below a search bar with andromeda in the search bar and the word NASA." src="./images/app-screenshot.jpeg">
 
 This is how the app looks on mobile:
-<img alt="A collection of images of andromeda below a search bar with andromeda in the search bar and the word NASA." src="./images/app-screenshot-mobile.png">
+<img height:"500" alt="A collection of images of andromeda below a search bar with andromeda in the search bar and the word NASA." src="./images/app-screenshot-mobile.png">
 
 ## The task requirements
 
