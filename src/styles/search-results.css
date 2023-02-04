@@ -1,0 +1,20 @@
+.no-images-message {
+  text-align: center;
+  font-size: 30px;
+}
+
+.search-results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-inline: 20px;
+  margin-top: 30px;
+}
+
+.search-results>img {
+  max-width: 300px;
+  max-height: 300px;
+  padding: 5px;
+  border-radius: 10px;
+  object-fit: cover;
+}
