@@ -7,15 +7,16 @@ import "../styles/app.css";
 const App = () => {
   const [searchResults, setSearchResults] = useState([]);
   const [loading, setLoading] = useState(true);
-    
+
   return (
     <div className="app">
-      <img className="nasa-logo"
+      <img
+        className="nasa-logo"
         src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
-        alt="red nasa logo"
+        alt="The word NASA in red"
       />
       <Search setSearchResults={setSearchResults} setLoading={setLoading} />
-      {!loading && <SearchResults results={searchResults} /> }
+      {!loading && <SearchResults results={searchResults} />}
     </div>
   );
 };

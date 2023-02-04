@@ -21,7 +21,11 @@ function Search({ setSearchResults, setLoading }) {
           type="text"
           data-testid="search-input"
         />
-        <button className="search-button" type="submit" data-testid="search-button">
+        <button
+          className="search-button"
+          type="submit"
+          data-testid="search-button"
+        >
           <TfiSearch />
         </button>
       </form>

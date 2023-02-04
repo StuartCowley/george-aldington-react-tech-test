@@ -6,32 +6,38 @@ This is what it looks like - enter a search term into the search bar and the app
 
 <img alt="A collection of images of andromeda below a search bar with andromeda in the search bar and the word NASA." src="./images/app-screenshot.jpeg">
 
-## API 
+## API
+
 This app uses the [NASA Images API ](https://images.nasa.gov/docs/images.nasa.gov_api_docs.pdf) from [NASA](https://api.nasa.gov/).
 
 ## How to use
+
 Eventually I will get round to deploying this app.
 For now, or if you want to mess around with the inner workings:
 
 ### Clone repo
+
 ```bash
 git clone https://github.com/George-xixi/react-tech-test
 ```
 
 ### Install dependencies
+
 ```bash
 npm i
 ```
+
 ### Launch app locally
+
 ```bash
 npm start
 ```
 
-### To run tests 
+### To run tests
+
 ```bash
 npm test
 ```
-
 
 ## Thanks
 

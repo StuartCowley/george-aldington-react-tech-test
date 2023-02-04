@@ -13,7 +13,9 @@ describe("SearchResults", () => {
   it("renders correctly if there are no results", () => {
     resultsMock = [];
     render(<SearchResults results={resultsMock} />);
-    const displayMessage = screen.getByText("Sorry, we couldn't find anything.");
+    const displayMessage = screen.getByText(
+      "Sorry, we couldn't find anything."
+    );
 
     expect(displayMessage).toBeInTheDocument();
   });

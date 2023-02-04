@@ -4,7 +4,9 @@ import "../styles/search-results.css";
 
 function SearchResults({ results }) {
   if (!results.length) {
-    return <p className="no-images-message">Sorry, we couldn't find anything.</p>;
+    return (
+      <p className="no-images-message">Sorry, we couldn't find anything.</p>
+    );
   }
   return (
     <div className="search-results">
