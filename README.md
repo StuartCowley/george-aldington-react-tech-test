@@ -5,7 +5,7 @@ This is a search engine built using react.js as a practice tech test. It is part
 This is what it looks like - enter a search term into the search bar and the app will respond with a collection of relevant images.
 
 
-<img alt="A collection of images of andromeda below a search bar with andromeda in the search bar and the word NASA." src="./images/app-screenshot.jpeg">
+<img alt="A collection of images of andromeda below a search bar with the andromeda galaxy in the search bar and the word NASA." src="./images/app-screenshot.jpeg">
 
 This is how the app looks on mobile:
 

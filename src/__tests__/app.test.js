@@ -4,7 +4,7 @@ import App from "../components/App";
 describe("App", () => {
   it("renders App correctly", () => {
     const { asFragment } = render(<App />);
-    const nasaImg = screen.getByAltText("The word NASA in red");
+    const nasaImg = screen.getByAltText("NASA in red stylised font");
 
     expect(asFragment()).toMatchSnapshot();
     expect(nasaImg).toHaveAttribute("src");

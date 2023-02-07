@@ -6,10 +6,15 @@ exports[`App renders App correctly 1`] = `
     class="app"
   >
     <img
-      alt="The word NASA in red"
+      alt="NASA in red stylised font"
       class="nasa-logo"
       src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
     />
+    <h1
+      class="heading"
+    >
+      NASA Image Search
+    </h1>
     <form
       class="search-form"
     >

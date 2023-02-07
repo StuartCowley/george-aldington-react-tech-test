@@ -13,8 +13,9 @@ const App = () => {
       <img
         className="nasa-logo"
         src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
-        alt="The word NASA in red"
+        alt="NASA in red stylised font"
       />
+      <h1 className="heading">NASA Image Search</h1>
       <Search setSearchResults={setSearchResults} setLoading={setLoading} />
       {!loading && <SearchResults results={searchResults} />}
     </div>
