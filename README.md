@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# NASA Image Search App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a search engine built using react.js as a practice tech test. It is part of the front end module at [Command Shift](https://www.commandshift.co/). 
 
-## Available Scripts
+This is what it looks like - enter a search term into the search bar and the app will respond with a collection of relevant images.
 
-In the project directory, you can run:
 
-### `npm start`
+<img alt="A collection of images of andromeda below a search bar with the andromeda galaxy in the search bar and the word NASA." src="./images/app-screenshot.jpeg">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This is how the app looks on mobile:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img alt="A collection of images of andromeda below a search bar with andromeda in the search bar and the word NASA." src="./images/app-screenshot-mobile.png">
 
-### `npm test`
+## The task requirements
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This is a mock tech test, with the following requirements:
 
-### `npm run build`
+-Build a React web application that allows users to search for images based on a query relating to space.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-Consider and add anything to your repository that should be included was this to be a live website.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Required functionalities
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-A search page which allows users to search for images by keyword.
+-Images must be returned upon a successful search.
 
-### `npm run eject`
+### Resources
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+-[Image of NASA text](https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg)
+-The API endpoint is: GET​​ ​​https://images-api.nasa.gov/search ​Params: ​​q
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## API
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This app uses the [NASA Images API ](https://images.nasa.gov/docs/images.nasa.gov_api_docs.pdf) from [NASA](https://api.nasa.gov/).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Testing
+This app is tested with [Jest](https://jestjs.io/) and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/).
 
-## Learn More
+## Packages
+- [Axios](https://axios-http.com/docs/intro)
+- [PropTypes](https://www.npmjs.com/package/prop-types)
+- [React Icons](https://react-icons.github.io/react-icons/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## How to use
 
-### Code Splitting
+### Clone repo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+git clone https://github.com/George-xixi/react-tech-test
+```
 
-### Analyzing the Bundle Size
+### Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm i
+```
 
-### Making a Progressive Web App
+### Launch app locally
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm start
+```
 
-### Advanced Configuration
+### To run tests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+npm test
+```
 
-### Deployment
+## If I had more time...
+I would add better alt text to the images in image results. Currently they all have the alt text of "placeholder" which is not useful at all. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+I would need to process the data recieved from the API differently so that the alt text from NASA could be added to the individual image in the same way the href is added to the src attribute.
+## Thanks
 
-### `npm run build` fails to minify
+-Thanks to all the tutors at [Command Shift](https://www.commandshift.co/)!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-Thanks to [NASA](https://api.nasa.gov/) for the API.
+
+### George - 2023
